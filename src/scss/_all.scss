@@ -1,3 +1,25 @@
-body {
-  color:$defaultColor;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Calibri Light",sans-serif;
+  &:focus {
+    outline: none;
+  }
 }
+
+body {
+  color: $defaultColor;
+  width: 350px;
+  border: 2px solid lightpink;
+  border-radius: 5px;
+  height: 100vh;
+}
+
+div#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+

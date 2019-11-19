@@ -1,0 +1,136 @@
+form.newClient {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+  button {
+    width: 80%;
+    border-radius: 10px;
+    height: 40px;
+  }
+}
+
+form.newClient div.container {
+  width: 90%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  input, select {
+    border-radius: 5px;
+    font-size: 1em;
+  }
+
+  div.name {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    input {
+      width: 60%;
+      border: 1px solid $purpleColor;
+    }
+
+    label {
+      width: 30%;
+      color: $purpleColor;
+      font-weight: bold ;
+    }
+  }
+
+  div.addressItems {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    input {
+      width: 20%;
+      text-align: center;
+    }
+
+    select {
+      text-align-last: center;
+    }
+
+    select#streetType {
+      border: 1px solid $purpleColor;
+    }
+
+    input#streetName {
+      width: 60%;
+      border: 1px solid $purpleColor;
+    }
+
+    input#streetNo {
+      border: 1px solid $purpleColor;
+    }
+
+    select#district {
+      width: 20%;
+    }
+
+    select#localityType {
+      width: 30%;
+      border: 1px solid $purpleColor;
+    }
+
+    input#locality {
+      width: 50%;
+      border: 1px solid $purpleColor;
+    }
+  }
+
+  select#county {
+    width: 50%;
+    border: 1px solid $purpleColor;
+    }
+
+  div.user {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    input {
+      width: 60%;
+      border: 1px solid $purpleColor;
+    }
+
+    label {
+      width: 30%;
+      color: $purpleColor;
+      font-weight: bold;
+    }
+  }
+
+  div.submitBtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    button {
+      width: 50%;
+      background-color: hotpink;
+    }
+  }
+
+  div.legend {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    span {
+      width: 30%;
+      margin-right: 10px;
+      font-size: 0.7em;
+      font-weight: 700;
+    }
+    div#legendSquare {
+      width: 10px;
+      height: 10px;
+      border: 1px solid $purpleColor;
+      margin-right: 10px;
+    }
+  }
+}

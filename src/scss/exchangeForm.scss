@@ -1,0 +1,140 @@
+form.exchangeForm {
+  width: 90%;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+
+  div.exchangeOpType {
+    width: 100%;
+    height: 7vh;
+    float: left;
+    padding: 10px 0;
+    * {
+      padding: 0 10px;
+    }
+    input {
+      border: 1px solid $blueColor;
+      color: $blueColor;
+      background-color: $blueColor;
+    }
+    label {
+      color: $blueColor;
+    }
+  }
+
+  div.exchangeOpDesc {
+    width: 100%;
+    height: 7vh;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+
+    select {
+      width: 20%;
+      height: 100%;
+      margin-right: 10px;
+      border-radius: 5px;
+      border: 1px solid $blueColor;
+      color: $blueColor
+    }
+    input {
+      width: 40%;
+      height: 100%;
+      text-align: center;
+      border-radius: 5px;
+      border: 1px solid $blueColor;
+      color: $blueColor;
+      &::placeholder {
+        color: $blueColor;
+      }
+    }
+  }
+
+  div.amountRON {
+    width: 100%;
+    height: 7vh;
+    float: left;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    color: $blueColor;
+    input {
+      width: 40%;
+      height: 100%;
+      margin-right: 10px;
+      text-align: right;
+      border-radius: 5px;
+      border: 1px solid $blueColor;
+      color: $blueColor;
+    }
+  }
+
+  div.exchangeOpAccounts {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    select {
+      width: 65%;
+      border-radius: 5px;
+      border: 1px solid $blueColor;
+      color: $blueColor;
+    }
+    input {
+      width: 25%;
+      text-align: right;
+      border-radius: 5px;
+      border: 1px solid $blueColor;
+      color: $blueColor;
+    }
+    div.accountDisplay {
+      display: flex;
+      justify-content: space-around;
+      height: 19vh;
+      color: $blueColor;
+      input {
+        height: 50%;
+      }
+      select {
+        height: 50%;
+      }
+    }
+  }
+
+  div.submitBtn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    button {
+      width: 70%;
+      border-radius: 10px;
+      height: 25px;
+      border: 1px solid $blueColor;
+      background-color: $blueColor;
+    }
+  }
+
+  div.checkTransaction {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    color: red;
+    button {
+      width: 80px;
+      height: 30px;
+      border-radius: 10px;
+      background-color: forestgreen;
+      color: black;
+      margin-top: 20px;
+    }
+  }
+}

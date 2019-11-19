@@ -1,0 +1,23 @@
+section.main {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+section.main div.container {
+  width: 90%;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+p.motto {
+  color: forestgreen;
+  strong {
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,26 @@
+div.myAccount {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 70vh;
+  padding: 10px;
+  input {
+    border:none;
+    text-align: center;
+    font-size: 1em;
+  }
+  table * {
+    border: 1px solid;
+    text-align: center;
+  }
+  button {
+    background-color: cornflowerblue;
+    height: 30px;
+    border-radius: 10px;
+    a {
+      text-decoration: none;
+      color: darkviolet;
+    }
+  }
+}
